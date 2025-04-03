@@ -59,15 +59,45 @@
         font-weight: 400;
         font-style: normal;
         }
+        #haul{
+            font-size: 28px;
+        }
+        @media (min-width:200px) and (max-width:500px){
+            body{
+                background-color: azure;
+            }
+            .card-container{
+                width: 100px;
+                height: 120px;
+            }
+            img{
+                width: 100px;
+            }
+            .text-wrap{
+                top: 50px;
+                padding: 10px;
+                font-size: 10px;
+            }
+            h1{
+                font-size: 10px;
+            }
+            #haul{
+                font-size: 8px;
+            }
+            p{
+                font-size: 5px;
+            }
+
+        }
     </style>
 </head>
 <body>
-    <h1 id="title" class="bebas-neue-regular">STUDIO GHIBRI</h1>
+    <h1 id="title" class="bebas-neue-regular">studio Ghibri</h1>
     <div class="flex-container">
         <a  target='_blank' href="https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%9B%83%EC%A7%91_%ED%86%A0%ED%86%A0%EB%A1%9C">
             <div class="card-container">
                 <div class="img-gradient"></div>
-                <img src="card 1 (1).png" alt="샘플이미지1번">
+                <img src="card_1.png" alt="샘플이미지1번">
                 <div class="text-wrap">
                     <h1>이웃집 토토로</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ducimus enim, cumque accusamus</p>
@@ -78,9 +108,9 @@
         <a target="_blank" href="https://ko.wikipedia.org/wiki/%ED%95%98%EC%9A%B8%EC%9D%98_%EC%9B%80%EC%A7%81%EC%9D%B4%EB%8A%94_%EC%84%B1_(%EC%98%81%ED%99%94)">
             <div class="card-container">
                 <div class="img-gradient"></div>
-                <img src="card 2 (1).png" alt="샘플이미지2번">
+                <img src="card_2.png" alt="샘플이미지2번">
                 <div class="text-wrap">
-                    <h1 style="font-size: 28px;">하울의 움직이는 성</h1>
+                    <h1 id="haul">하울의 움직이는 성</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ducimus enim, cumque accusamus</p>
                 </div>          
             </div>
@@ -88,7 +118,7 @@
         
         <div class="card-container">
             <div class="img-gradient"></div>
-            <img src="card 3.png" alt="샘플이미지3번">
+            <img src="card_3.png" alt="샘플이미지3번">
             <div class="text-wrap">
                 <h1>벼랑 위의 포뇨</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ducimus enim, cumque accusamus</p>
